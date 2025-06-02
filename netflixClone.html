@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NETFLIX CLONE</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .nav-item {
+                color: white;
+                margin-right: 10px;
+                font-size: 18px;
+                display: inline;
+                font-family: sans-serif;
+            }
+            #Logo {width: 100px;
+                height: 30px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            #nav-container {
+                display:inline-block;
+                position: absolute;
+                top: 25px;
+            }
+            #main {
+                height: 100vh;
+                width: 100vw;
+                position: relative;
+            }
+            #Header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+            }
+            #Banner {
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                top: 0px;
+                left: 0;
+            }
+            #Banner-logo {
+                position: absolute;
+                top: 31%;
+                left: 4%;
+            }
+            #Banner-content {
+                position: absolute;
+                top: 60%;
+                left: 4%;
+                color: white;
+                font-family: sans-serif;
+                width: 39%;
+            }
+            #Banner-description {
+                margin-top: 10px;
+            }
+            #icons {
+                position: absolute;
+                display: inline-block;
+                right: 20px;
+                top: 25px;
+            }
+            #icons img {
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body id="body">
+        
+        <div id="Header">
+            <img id="Logo" src="Assets/netflix-logo-png-2562.png">
+            <div id="nav-container">
+                <ul>
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Movies</li>
+                <li class="nav-item">TV Shows</li>
+                <li class="nav-item">New and Popular</li>
+                <li class="nav-item">My list</li>
+                <li class="nav-item">Categories</li>
+                </ul>
+            </div>
+            <div id="icons">
+                <img src="Assets/bell.svg" alt="">
+                <img src="Assets/search.svg" alt="">
+                <img src="Assets/netflix-profile-pictures-5yup5hd2i60x7ew3.jpg" width="25px" height="25px">
+                <img src="Assets/chevron-down.svg" alt="">
+            </div>
+        </div>    
+
+        <div id="main">
+
+         <img id="Banner" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/09/Walt-house-Breaking-Bad.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="">
+
+         <img id="Banner-logo" src="Assets/Breaking-Bad-Logo.png" alt="">
+
+         <div id="Banner-content">
+                <h1 id="Banner-heading">Watch All 5 Seasons now!</h1>
+
+                <p id="Banner-description">A high school chemistry teacher dying of cancer teams with former student to secure his family a future by manufacturing and selling crystal meth.</p>
+
+               <div id="content-container">
+                  <h2>You might like</h2>
+                  
+                  <div id="content-row">
+                     <img class="content" src="Assets/R.jpeg" width="320px" height="160px">
+                     <img class="content" src="Assets/OIP.jpeg" width="320px" height="160px">
+                     <img class="content" src="Assets/12.webp" width="320px" height="160px">
+                     <img class="content" src="Assets/858538-poster-movie-film-movies-posters.jpg" width="320px" height="160px">
+                     <img class="content" src="Assets/download.webp" width="320px" height="160px">
+                  </div>
+               </div>
+         </div>     
+        </div>
+    </body>
+</html>

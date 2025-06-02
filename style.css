@@ -1,0 +1,28 @@
+#content-container {
+    margin-top: 32px;
+    color: white;
+    width: 100vw;
+}
+#content-row {
+    overflow-x: scroll;
+    width: 100vw;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+.content {
+    display: inline-table;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#Banner-buttons {
+    margin-top: 10px
+
+}
+#icons img:hover {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+.nav-item {
+    cursor: pointer;
+}
